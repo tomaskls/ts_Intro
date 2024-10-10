@@ -27,7 +27,4 @@ const students: Array<Student> = [
 export function studentsAverage(student: { name: string; age: number; marks: number[] }) {
     let sum = 0;
 }
-for (const n of students.marks){
-    sum += n;
 
-}

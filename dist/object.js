@@ -16,5 +16,5 @@ const students = [
     },
 ];
 export function studentsAverage(student) {
-    return 5;
+    let sum = 0;
 }
