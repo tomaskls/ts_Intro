@@ -1,3 +1,5 @@
+import { studentsAverage } from "./object.js";
+
 const n1 = 5;
 const n2 = 17;
 
@@ -26,3 +28,4 @@ function marksAverage(list:Array<number>) {
 }
 console.log(marksAverage([1, 2, 3]));
 
+console.log(studentsAverage);

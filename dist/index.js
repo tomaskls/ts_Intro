@@ -1,3 +1,4 @@
+import { studentsAverage } from "./object.js";
 const n1 = 5;
 const n2 = 17;
 function sum(a, b) {
@@ -21,4 +22,4 @@ function marksAverage(list) {
     return sum / list.length;
 }
 console.log(marksAverage([1, 2, 3]));
-export {};
+console.log(studentsAverage);
